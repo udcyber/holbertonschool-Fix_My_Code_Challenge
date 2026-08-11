@@ -21,8 +21,8 @@ ARGV.each do |arg|
             i += 1
         else
 # Beginning of change.
-# Changed `i - 1` into `i` to insert at right position.
-# Removed useless `break`.
+# Changed i to insert at right position.
+# Removed useless break.
             result.insert(i, i_arg)
             is_inserted = true
 # End of change.
