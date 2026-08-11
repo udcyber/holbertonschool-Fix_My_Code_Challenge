@@ -85,3 +85,29 @@ Directory: challenge
 File: 1-print_square.js  
 
 ---
+
+## 2. Sort
+
+Please find here my implementation of sorting arguments in Ruby: [source code](https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/blob/main/2-sort.rb)
+
+Something is going wrong….
+```
+$ ruby 2-sort.rb 12 41 2 C 9 -9 31 fun -1 32
+31
+32
+12
+41
+2
+9
+-9
+-1
+$
+```
+Repo:
+
+GitHub repository:  
+holbertonschool-Fix_My_Code_Challenge  
+Directory: challenge  
+File: 2-sort.rb  
+
+---
