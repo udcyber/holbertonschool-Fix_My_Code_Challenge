@@ -111,3 +111,26 @@ Directory: challenge
 File: 2-sort.rb  
 
 ---
+
+## 3. User password
+
+Please find here my implementation of a User class in Python: [source code](https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/blob/main/3-user.py)
+
+Something is going wrong….
+```
+$ ./3-user.py 
+Test User
+is_valid_password should return True if it's the right password
+$
+```
+My tests should not print any error…
+
+Repo:
+
+GitHub repository:  
+holbertonschool-Fix_My_Code_Challenge  
+Directory: challenge  
+File: 3-user.py  
+
+---
+
