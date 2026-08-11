@@ -45,3 +45,43 @@ Repo:
 
 ---
 
+## 1. Print square
+
+Please take a look at my implementation of printing a square in Javascript: [source code](https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/blob/main/1-print_square.js)
+
+Something is going wrong….
+```
+$ ./1-print_square.js 4
+####
+####
+####
+####
+$ ./1-print_square.js 10
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+################
+$
+```
+./1-print_square.js 10 should print a square of size 10…
+
+Repo:
+
+GitHub repository:  
+holbertonschool-Fix_My_Code_Challenge  
+Directory: challenge  
+File: 1-print_square.js  
+
+---
