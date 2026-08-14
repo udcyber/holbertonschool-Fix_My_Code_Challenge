@@ -134,3 +134,82 @@ File: 3-user.py
 
 ---
 
+## 4. Double linked list
+
+Please find here my implementation of a Double linked list in C: [source code](https://github.com/hs-hq/0x00-Fix_My_Code_Challenge/tree/main/4-delete_dnodeint)
+(Everything can be found in source_code/4-delete_dnodeint)
+
+Something is going wrong….
+```
+$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main.c free_dlistint.c print_dlistint.c add_dnodeint_end.c delete_dnodeint_at_index.c -o delete_dnodeint
+$ ./delete_dnodeint 
+0
+1
+2
+3
+4
+98
+402
+1024
+-----------------
+0
+1
+2
+3
+4
+0
+402
+1024
+-----------------
+1
+2
+3
+4
+0
+402
+1024
+-----------------
+2
+3
+4
+0
+402
+1024
+-----------------
+3
+4
+0
+402
+1024
+-----------------
+4
+0
+402
+1024
+-----------------
+0
+402
+1024
+-----------------
+402
+1024
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+-----------------
+$
+```
+It doesn't look right…
+
+Repo:
+
+GitHub repository:  
+holbertonschool-Fix_My_Code_Challenge  
+Directory: challenge  
+File: 4-delete_dnodeint/  
